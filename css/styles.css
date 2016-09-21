@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+#app-container {
+  margin: 0 auto;
+  background: url("../images/surfer-chich.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100vh; }
+  #app-container .columns-container {
+    font-size: 0;
+    background-color: #d0d5d9;
+    width: 60%;
+    height: 30%;
+    position: absolute;
+    top: 64%;
+    left: 34%; }
+  #app-container .columns-container > * {
+    font-size: medium;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 auto;
+    width: 50%; }
+  #app-container .button {
+    border: 3px solid chartreuse;
+    background-color: black;
+    padding-left: 4px;
+    padding-right: 4px; }
+  #app-container .button span {
+    color: white; }
+
+#app-container2 {
+  margin: 0 auto;
+  background: url("../rsvp-shop/avocado-splash.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100vh; }
+  #app-container2 .list-container {
+    font-size: 0;
+    background: papayawhip;
+    font-family: fantasy, sans-serif; }
+  #app-container2 .list-container > * {
+    font-size: XX-large;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 auto;
+    width: 25%; }
+  #app-container2 .bag {
+    position: absolute;
+    top: 120%;
+    left: 90%;
+    height: 30px;
+    width: 30px; }
+  #app-container2 .shop {
+    font-family: fantasy;
+    border: 5px solid black;
+    color: white;
+    background: black;
+    height: 80px;
+    width: 100px;
+    text-align: center;
+    vertical-align: center;
+    position: absolute;
+    top: 195%;
+    left: 45%; }
+
+/*# sourceMappingURL=styles.css.map */
