@@ -7,17 +7,19 @@ img {
 
 #app-container {
   margin: 0 auto;
-  background: url("../images/surfer-chich.jpg") center center no-repeat;
+  background: url("../images/surfer-chich.jpg") center center repeat;
   background-size: cover;
   height: 100vh; }
   #app-container .columns-container {
     font-size: 0;
     background-color: #d0d5d9;
-    width: 60%;
-    height: 30%;
     position: absolute;
-    top: 64%;
-    left: 34%; }
+    top: 60%;
+    left: 60%;
+    max-width: 30%;
+    max-height: 34%;
+    overflow-x: scroll;
+    overflow-y: scroll; }
   #app-container .columns-container > * {
     font-size: medium;
     text-align: center;
@@ -25,13 +27,19 @@ img {
     display: inline-block;
     margin: 0 auto;
     width: 50%; }
+  #app-container .columns-container h2 {
+    margin: 0; }
+  #app-container .photo img {
+    height: 240px; }
+  #app-container .text {
+    max-height: 250px; }
   #app-container .button {
     border: 3px solid chartreuse;
     background-color: black;
     padding-left: 4px;
     padding-right: 4px; }
   #app-container .button span {
-    color: white; }
+    color: black; }
 
 #app-container2 {
   margin: 0 auto;
